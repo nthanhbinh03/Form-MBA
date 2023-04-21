@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/form.css">
+
+    <title>Form | MBA</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="" method="post" class="form" id="form-1">
+
+            <div class="form__intro">
+
+                <h3 class="form__heading">Thành viên đăng ký</h3>
+
+                <p class="form__desc">Cùng nhau học tập và làm việc tại MBA Chợ Mới | Company of Dreams</p>
+
+                <div class="spacer"></div>
+
+            </div>
+
+            <div class="form__group">
+                <label for="fullName" class="form__label">Tên đầy đủ | Nickname</label>
+                <input id="fullName" name="fullName" type="text" placeholder="Ex: MBA team">
+                <span class="form__message">Vui lòng nhập lại Nickname</span>
+            </div>
+
+            <div class="form__group">
+                <label for="email" class="form__label">Địa chỉ email</label>
+                <input id="email" name="email" type="text" placeholder="Ex: Mba.team@gmail.com">
+                <span class="form__message">Địa chỉ email không hợp lệ</span>
+            </div>
+
+            <div class="form__group">
+                <label for="password" class="form__label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu">
+                <span class="form__message">Mật khẩu không được chứa ký tự đặt biệt</span>
+            </div>
+
+            <div class="form__group">
+                <label for="password_confirmation" class="form__label">Xác nhận lại mật khẩu</label>
+                <input id="password_confirmation" name="password_confirmation" type="password" placeholder="Nhập lại mật khẩu">
+                <span class="form__message">Mật khẩu không khớp, vui lòng nhập lại</span>
+            </div>
+
+            <div class="form__active">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <p>Nhận thông báo về các tin tức & sự kiện mới nhất của MBA. (Có thể hủy đăng ký bất cứ lúc nào)</p>
+            </div>
+
+            <button class="form__submit">Đăng ký</button>
+
+            <div class="form__footer">
+                <p>Bằng cách đăng ký, bạn đã đồng ý với các</p>
+                <a href="#">điều khoản sử dụng</a>
+                <p>của chúng tôi</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="./JS/form.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
