@@ -1,0 +1,199 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px calc(50% - 240px);
+    background-color: #F5F5F5;
+
+}
+
+/*--- CSS Form Tag Default ---*/
+
+.form {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    background-color: white;
+    height: 720px; width: 480px;
+
+    padding: 48px 80px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+
+    position: relative;
+    top: 12px;
+
+    transition: 0.4s ease;
+
+}
+
+/*--- CSS Form Intro Default ---*/
+
+.form__intro {
+    margin-bottom: 4px;
+
+    position: relative;
+    top: -12px;
+
+}
+
+.form__intro h3 {
+    margin: 4px 0px;
+
+    color: #333;
+    font-size: 2.4rem;
+    line-height: 1.15;
+
+}
+
+.form__intro p {
+    display: block;
+
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    position: relative;
+    top: 0px;
+
+
+}
+
+/*--- CSS Form Intro Animation ---*/
+
+
+/*--- CSS Form Group Default ---*/
+
+.form__group {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.form__group + .form__group {
+    margin-top: 12px;
+}
+
+.form__group label {
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+
+}
+
+.form__group input {
+    height: 36px;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08) ;
+    margin-bottom: 2px;
+
+}
+
+.form__group .form__message {
+    color: var(--error-color);
+
+}
+
+
+/* --- CSS Form Group Animation--- */
+
+
+/* --- CSS Form Active Default --- */
+
+.form__active {
+    margin-top: 16px;
+
+}
+
+
+.form__active input {
+    display: inline;
+
+    margin-right: 3px;
+
+    position: relative;
+    top: 3px;
+
+}
+
+
+.form__active p {
+    display: inline;
+
+}
+
+input {
+    padding: 8px 8px;
+
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    font-size: 1.2rem;
+
+}
+
+
+
+
+/*--- Form Submit --- */
+
+.form__submit {
+    background-color: var(--success-color);
+    padding: 8px 0px;
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+
+    color: #fff;
+
+    position: relative;
+    top: 8px;
+
+    transition: 0.2s;
+
+}
+
+/*--- Form Submit Animation --- */
+
+.form__submit:hover {
+    opacity: 0.8;
+    padding: 9px 0px;
+
+    cursor: pointer;
+
+    top: 9px;
+
+}
+
+/*--- CSS Form Footer ---*/
+
+.form__footer {
+    position: relative;
+    top: 24px;
+
+}
+
+
+.form__footer p, a {
+    display: inline;
+
+}
+
+.form__footer a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.form__footer a:hover {
+    opacity: 0.8;
+}
